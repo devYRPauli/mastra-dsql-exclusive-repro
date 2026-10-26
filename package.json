@@ -1,0 +1,14 @@
+{
+  "name": "mastra-dsql-exclusive-repro",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node repro.mjs"
+  },
+  "dependencies": {
+    "@mastra/core": "1.79.0",
+    "@mastra/dsql": "1.5.4",
+    "@mastra/pg": "1.32.0",
+    "pg": "8.23.1"
+  }
+}
